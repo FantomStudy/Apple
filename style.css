@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url(fonts/SF-Pro-Display-Regular.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF-Pro-Display";
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+header {
+  background-color: #181818;
+}
+a {
+  text-decoration: none;
+  color: #85858a;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+.header-item {
+  font-size: 14px;
+  font-weight: 300;
+  transition: .2s color ease-in-out;
+}
+.header-item:hover {
+  color: white;
+}
+.header-icon {
+  padding: 0 10px;
+}
+.product-section{
+    display: grid;
+    width: 100%;
+    text-align: center;
+}
+.product-title{
+    color: white;
+    font-size: 56px;
+    margin: 0 0 5px;
+}
+.product-subtitle{
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+.product-row{
+    height: 700px;
+}
+.iphone-16-pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/hero-phone16pro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
