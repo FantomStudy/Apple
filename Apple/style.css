@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url(fonts/SF-Pro-Display-Regular.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF-Pro-Display";
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+header {
+  background-color: #181818;
+}
+a {
+  text-decoration: none;
+  color: #86868b;
+}
+.a-btn{
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.fill-btn.blue{
+  background-color: #0071e3;
+  color: white;
+}
+.outline-btn.blue{
+  background-color: transparent;
+  border: #0071e3 solid 1.5px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.header-item {
+  font-size: 14px;
+  font-weight: 300;
+  transition: 0.2s color ease-in-out;
+}
+.header-item:hover {
+  color: white;
+}
+.header-icon {
+  width: 20px;
+  aspect-ratio: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.2s background ease-in-out;
+}
+.logo {
+  background-image: url(images/logo\ unactive.svg);
+}
+.logo:hover {
+  background-image: url(images/logo.svg);
+}
+.loop {
+  background-image: url(images/loop\ unactive.svg);
+}
+.loop:hover {
+  background-image: url(images/loop.svg);
+}
+.bag {
+  background-image: url(images/bag\ unactive.svg);
+}
+.bag:hover {
+  background-image: url(images/bag.svg);
+}
+
+
+
+.product-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+.product-title {
+  color: white;
+  font-size: 56px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 0 0 5px;
+}
+.product-subtitle {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+.product-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+.product-row {
+  height: 700px;
+  padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.iphone-16-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/hero-phone16pro.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bottom-buttons{
+  display: flex;
+  grid-gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
